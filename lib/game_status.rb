@@ -25,13 +25,15 @@ def won?(board)
     position_3 = board[win_index_3]
     if (position_1 == "X" && position_2 == "X" and position_3 == "X")
       win = [win_index_1, win_index_2, win_index_3]
+    else
+      false
     end
   end
 end
 
 def full?(board)
-  false
-  board.none?{|location| location == " "}
+  #false
+  #board.none?{|location| location == " "}
 end
 
 def draw?(board)
