@@ -51,6 +51,6 @@ end
 
 def winner(board)
  if (won?(board))
-   return won?(board)"#{win[0]}"
+   return board[win[0]]
  end
 end
