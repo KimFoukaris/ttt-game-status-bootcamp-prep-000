@@ -27,9 +27,8 @@ def won?(board)
       win = [win_index_1, win_index_2, win_index_3]
       return win
     end
-    elsif (win == nil)
-      false
-    end
+  if (win == nil)
+    false
   end
 end
 
