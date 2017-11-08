@@ -34,8 +34,7 @@ def won?(board)
 end
 
 def full?(board)
-  #false
-  #board.none?{|location| location == " "}
+  board.none?{|location| location == " "}
 end
 
 def draw?(board)
