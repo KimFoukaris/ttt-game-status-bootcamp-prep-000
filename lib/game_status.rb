@@ -26,7 +26,7 @@ def won?(board)
     if (position_1 == "X" && position_2 == "X" and position_3 == "X")
       win = [win_index_1, win_index_2, win_index_3]
       return win
-    elsif 
+    elsif
       (position_1 == "O" && position_2 == "O" and position_3 == "O")
         win = [win_index_1, win_index_2, win_index_3]
         return win
