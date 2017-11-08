@@ -32,7 +32,7 @@ def won?(board)
         #return win
     #end
     end
-    if (win = nil)
+    if (win == nil)
       false
     end
 end
